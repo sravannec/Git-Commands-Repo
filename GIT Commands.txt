@@ -16,7 +16,7 @@ git merge origin/master
 git push origin master
 __________________________
 
-=================================================================
+=========================================================================
 ---------------
 For Cloning :
 ---------------
@@ -24,11 +24,27 @@ git init
 git clone https://github.com/sravannec/myWinRepo2.git
 git status
 git add TestFile.txt
-git commit -m TestFile.txt
+git commit -m TestFile.txt (with '-m', you can give message there itself)
 git push -u origin master
 
+=========================================================================
+-----------------
+Remote commands :
+-----------------
+git remote
+git remote -v
 
 =================================================================
+
+-----------------
+Branch commands :
+-----------------
+git branch <branch name>
+git checkout <branch name>
+
+=================================================================
+
+================================================================
 git remote add origin https://github.com/sravannec/myWinRepo2.git
 git push -u origin master
 =================================================================
