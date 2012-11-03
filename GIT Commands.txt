@@ -1,7 +1,26 @@
 
+=================================================================
+-------------------------
+For Adding files to Repo:
+-------------------------
+git init
+git status
+git add -A (adds all files for staging)
+git commit 
+git remote add origin https://github.com/sravannec/GitCommands-Repo.git
+git push origin master
+__________________________
+if any error
+git fetch origin
+git merge origin/master
+git push origin master
+__________________________
+
+=================================================================
 ---------------
 For Cloning :
 ---------------
+git init
 git clone https://github.com/sravannec/myWinRepo2.git
 git status
 git add TestFile.txt
